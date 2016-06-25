@@ -1,0 +1,78 @@
+<div id=''class='col-md-12 col-xs-12'style='padding:0;'>
+
+  <!-- DESKTOP -->
+  <div id=''class='hidden-sm hidden-xs'style='padding:0;height:80vh;margin-bottom:1%;'>
+      <div id=''class='col-md-12 mainHeaderImageleft'style=' no-repeat;background-size:100% 100%;height:30vh;width:100%;position:relative;'>
+
+        <img src="{{imagesArray}}"class='col-md-12'style='height:100%;position:relative;'>
+        <div id=''class='col-md-4 col-md-offset-4 frontHead'style=';position:relative;bottom:80%;'>
+          <h1 style='float:left;'>High Quality Service</h1>
+        <br>
+        <h1 style='float:right;'>Without the High Prices</h1>
+      
+        
+        </div>
+
+      </div>
+      <div id=''class='col-md-12'style=''>
+            <div id=''class='col-md-8 col-md-offset-2'style='text-align:center;'>
+            <h2>Shared Hosting</h2>
+            
+            </div>
+            <div id=''class='col-md-10 col-md-offset-2'style=''>
+                
+              <div ng-repeat='serv in server'id='col-md-12'style=''style='height:auto;padding:1%;bmargin-top:2%;'>
+                <div id=''class='col-md-2 'style='text-align:center;font-size:1.2em;'>
+                
+                
+                
+                <div id=''class='col-md-12'style='border-bottom:1px solid black;text-align:center;'>
+                  <h3>{{serv.name}}</h3>
+                  
+                </div>
+                <div id=''class='col-md-12'style='border-bottom:1px solid black;text-align:center;'>
+                {{serv.price | currency}}
+                
+                </div>
+                <div id=''class='col-md-12'style='border-bottom:1px solid black;'>
+                  {{serv.storage}}GB storage
+                
+                </div>
+                <div id=''class='col-md-12'style='border-bottom:1px solid black;'>
+                  {{serv.bandwidth}}Gb bandwidth
+                
+                </div>
+                <div id=''class='col-md-12'style='border-bottom:1px solid black;'>
+                  {{serv.addDom}} Addon domains
+                
+                </div>
+                
+
+              </div>
+              
+              </div>
+              <div id=''class='col-md-10 'style='padding:2%;'>
+                    <div id=''class='col-md-4 col-md-offset-4'style=''>
+                      <a ng-href='#/host'ng-click='changeLink(0);'><button type="button" class="col-md-4 btn btn-info col-md-12" ng-model="singleModel" uib-btn-checkbox btn-checkbox-true="1" btn-checkbox-false="0">
+                    More info <span class='   glyphicon glyphicon-chevron-right'></span><span class='   glyphicon glyphicon-chevron-right'></span>
+                  </button></a>  
+                    
+                    </div>
+                
+              </div>
+            </div>
+            
+
+
+      </div>
+    
+  </div>
+
+  <!-- MOBILE -->
+  <div id=''class='hidden-md hidden-lg'style=''>
+  
+  
+  </div>
+
+
+</div>

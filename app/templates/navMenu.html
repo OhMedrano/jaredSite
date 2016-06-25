@@ -1,0 +1,64 @@
+<div id=''class=''style=''>
+
+	<!-- DESKTOP -->
+	<div id=''class='hidden-sm hidden-xs col-md-12 navDesk'style='background:url({{backgroundImage}})no-repeat;background-size:cover;padding:1%;'>
+
+		<div id=''class='col-md-12'style='border:1px none;'>
+			<a ng-href='#/'ng-click='changeLink(5);'><div id=''class='col-md-offset-2 col-md-4'style='background:url({{logo}}) no-repeat;background-size:contain;height:10vh;'>
+		
+		
+			</div></a>
+		
+		</div>
+		<div id=''class='col-md-12'style='border:1px none;height:4vh;position:relative;top:25%;padding:0;'>
+
+			<div id=''class='col-md-8 col-md-offset-2'style='border:1px none;height:100%;padding:0;'>
+				<div id=''class='col-md-6'style='padding:0;height:100%;' >
+						
+					<div ng-repeat='link in linked'id=''class='col-md-3'style=';height:100%;padding:2%;color:white;padding:0;'ng-init='li = $index'>
+						
+						<div id='linkBox'ng-if='$index != linked.length-1'style='height:100%;'>
+							<a ng-href='{{link.web}}' class=''> <div id=''class='col-md-12 deskLinkBox'style=''ng-class='{navSelect: currentLink == li}'ng-click='changeLink(li)'>
+							{{link.name}}
+							
+							</div></a>
+
+						
+						</div>
+						<div id='linkBox'ng-if='$index == linked.length-1'style='height:100%' >
+							<a ng-href='{{link.web}}'><div id=''class='col-md-12 deskLinkBoxx'style='height:100%;'ng-class='{navSelect: currentLink == li}'ng-click='changeLink(li)'>
+								{{link.name}}						
+															
+						   </div></a>								
+													
+						</div>
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-6'style='border:1px none;height:100%;padding:0;'>
+					<div id=''class='col-md-3'style='height:100%;float:right;padding:0;'>
+						<div id=''class='col-md-12'style='height:100%;background:black;color:white;text-align:right;padding-top:8%;'>
+							Client Sign-In
+							
+					</div>
+					
+					</div>
+									
+				
+				</div>
+			
+			</div>
+		
+		</div>
+		
+	</div>
+
+	<!-- MOBILE -->
+	<div id=''class='hidden-md hidden-lg'style=''>
+	
+	
+	</div>
+
+
+</div>
