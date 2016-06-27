@@ -1,0 +1,405 @@
+<div id=''class=''style=''>
+
+	<!-- DESKTOP -->
+	<div id=''class='hidden-sm hidden-xs col-md-12'style=''>
+			<div id=''class='col-md-12'style='margin-bottom:2%;height:5vh;'>
+				<div id=''class='col-md-4 touchable'style='text-align:center;height:100%;padding:1%;'ng-class='{detailSelect: details == 0}'ng-click='details = 0'>
+					Detailed Information
+				
+				</div>
+				<div id=''class='col-md-4 touchable'style='text-align:center;height:100%;padding:1%;'ng-class='{detailSelect: details == 1}' ng-click='details = 1'>
+					Back ups
+				
+				</div>
+				<div id=''class='col-md-4 touchable'style='text-align:center;height:100%;padding:1%;'ng-class='{detailSelect: details == 2}' ng-click='details = 2'>
+					Resources
+				
+				</div>
+			
+			</div>
+			<div ng-if='details == 2' id=''class=''style=''>
+				<div id=''class='col-md-6'style=''>
+					<h4 class='col-md-12'style='border-bottom:1px solid black'>Guaranteed CPU/RAM </h4>
+					<div id=''class='col-md-12'style=''>
+					<p>Many hosts talk about keeping your site online a certain percentage of time, however they make no guarantee about performance. If you are not able to utilize the processor power and RAM that we guarantee we treat it the same as if your site is down as part of our service level agreement.<p>
+
+<p>By default our server plans are configured so that 1/2 of the guaranteed RAM is available for scripts and other processes running on your account. The other 1/2 is allocated to MySQL for optimizing the performance of your databases. For most customers with databases with less than 1GB of actively used data we find this is a good balance.
+
+<p>If the 50/50 balance is not optimal for your site you may submit a support request for it to be adjusted. We may also contact you if we believe your site would benefit from these settings being adjusted.
+					<br>					
+					
+					
+					</div>
+					<h4 class='col-md-12'style='border-bottom:1px solid black;'>Burst CPU</h4>
+					<div id=''class='col-md-12'style=''>
+					
+						
+
+					<p>There are typically extra resources available on our servers. We allow you to use some of those extra resources to handle traffic spikes and other short term load increases.
+
+<p>If your site is consistently using large amounts of resources or the server you are on receives an unusually high load we reserve the right to reduce or remove the burst privileges on your account temporarily or permanently to ensure other users are able to utilize their guaranteed resources.
+					</div>
+
+
+				</div>
+
+				<div id=''class='col-md-6'style=''>
+					<h4 class='col-md-12'style='border-bottom:1px solid black;'>Inodes</h4>
+					<div id=''class='col-md-12'style=''>
+					
+						
+<p>One inode is used by each file, directory or email on your account. The limit is in place to ensure the file system inode limits are not reached as well as ensuring that tasks such as backups perform optimally. We allow you to temporarily use 10% more inodes than your plan is limited to.
+
+<p>In our experience most sites on our servers use less than 20,000 inodes
+					</div>
+				
+				</div>
+			
+			</div>
+			<div ng-if='details == 1' id='col-md-12'class=''style='height:80vh;text-align:left;'>
+				<div id=''class='col-md-6'style=''>
+					<h4 class='col-md-12'style='border-bottom:1px solid black'>Backups </h4>
+					<div id=''class='col-md-12'style=''>
+					<p>We know your data is important to you. That is why we are not satisfied with the typical backup solutions offered by many of our competitors. We hope they never need to be used but we schedule backups hourly instead of daily or even weekly to minimize the impact to your account if something ever does happen.
+					<br>					
+					
+					
+					</div>
+					<h4 class='col-md-12'style='border-bottom:1px solid black;'>Why Hourly?</h4>
+					<div id=''class='col-md-12'style=''>
+					
+						
+
+					<p>Data on your account is constantly changing. Even small sites typically allow commenting on posts but if you have an ecommerce site losing a day’s data means losing a day of sales and new customer sign ups. Some collaborative sites may risk losing hundreds of hours of work. Losing a week of data would be devastating to many sites/businesses.
+					</div>
+
+
+				</div>
+				<div id=''class='col-md-6'style=''>
+				<h4 class='col-md-12'style='border-bottom:1px solid black;'>Why Back ups?</h4>
+				<div id=''class='col-md-12'style=''>
+					<p>While we take safeguards to limit the chance of a server hardware failure causing data loss, that is not the only reason you may need access to backups. Everyone makes mistakes, and being able to restore an accidentally deleted file may save you time and money.</p>
+
+				
+				</div>
+				<h4 class='col-md-12'style='border-bottom:1px solid black;'>Backup Accessbility</h4>
+				<div id=''class='col-md-12'style=''>
+					<p>Since we use r1soft to backup our servers we are able to allow customers to restore their files on their own. You are able to see every backup that has been made and even do your own verification to make sure that they are functional.
+
+Currently we require that a support ticket be submitted to restore databases from backup but you are able to request that the database be restored from any backup that you see in your control panel.</p>
+
+				
+				</div>
+
+				</div>
+
+				<div id=''class='col-md-6'style=';'>
+					<h4 class='col-md-12'style='border-bottom:1px solid black'>We have your Back</h4>
+					<div id=''class='col-md-12'style='margin-bottom:2%;'>
+						Another area that many companies struggle is how long they retain backups. Some companies only keep one or two backups. We retain over a hundred versions of your site.
+						
+						</div>	
+
+					<div id=''class='col-md-10 col-md-offset-1'style='padding:0;height:30vh;'>
+						
+						<div id=''class='col-md-12'style='border-bottom:1px solid black;height:10%;padding:1%;font-weight:bold;'>
+							<div id=''class='col-md-4'style=''>
+							Schedule
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+							Quantity
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+							Overall Time
+							
+							</div>
+											
+						</div>					
+						<div id=''class='col-md-12'style='height:10%;padding:1%;'>
+							<div id=''class='col-md-4'style=''>
+							Hourly
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+								168
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+							1 Week
+							
+							</div>
+											
+						</div>				
+						<div id=''class='col-md-12'style='height:10%;padding:1%;'>
+							<div id=''class='col-md-4'style=''>
+							Every 8 Hours
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+							42
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+							2 Weeks
+							
+							</div>
+											
+						</div>				
+						<div id=''class='col-md-12'style='height:10%;padding:1%;'>
+							<div id=''class='col-md-4'style=''>
+							Weekly
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+							4
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+							4 Weeks
+							
+							</div>
+											
+						</div>				
+						<div id=''class='col-md-12'style='height:10%;padding:1%;'>
+							<div id=''class='col-md-4'style=''>
+							Montly
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+							3
+							
+							</div>
+							<div id=''class='col-md-4'style=''>
+							3 Months
+							
+							</div>
+											
+						</div>				
+						
+					</div>
+
+				
+				</div>
+				<div id=''class='col-md-6'style=''>
+					<h4 class='col-md-12'style='border-bottom:1px solid black;'>Restrictions on backups</h4>
+				<div id=''class='col-md-12'style=''>
+					<p>Providers with “Unlimited Storage” policies typically stop backing up your site after it reaches a certain size. That will never happen with us. We may require that some sites submit a support ticket to restore their files so we can limit the impact on other customers but we will never stop backing up your site because of size or number of files.
+
+We reserve the right to disable backups of accounts or terminate customers that abuse our backup system. So far this has never been necessary.</p>
+
+				
+				</div>
+			
+			
+			</div>
+			</div>
+			<div ng-if='details == 0 'id=''class='col-md-12'style='height:80vh;'>
+				<div id=''class='col-md-12'style='height:5%;'>
+					<div id=''class='col-md-2'style='height:100%;'>
+					
+					
+					</div>
+					<div ng-repeat='deal in deals'id=''class='col-md-2'style='text-align:center;padding:0;'>
+						<div ng-class='{tableEven: $index %2==0}' id=''class='col-md-12'style=''>
+							<span class='col-md-12'>{{deal.name}}</span>
+							<span class='col-md-12'>{{deal.price | currency}}</span>
+						
+						</div>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;'>
+					
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Storage
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%;height:100;'>
+						<span class='col-md-12'>{{deal.storage}} Gb</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Bandwidth
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.bandwidth}} Gb</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Email Accounts
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.emailAcc}}</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Subdomains
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.subdom}}</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Addon Domains
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%;'>
+						<span class='col-md-12'>{{deal.addDom}}</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Domain Aliases
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.domainAlias}}</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;'>
+					
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Guaranteed CPU
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.Gcpu}}% core</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Burst CPU
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span ng-if='$index < 2'class='col-md-12'>{{deal.Bcpu}} core</span>
+						<span ng-if='$index >= 2'class='col-md-12'>{{deal.Bcpu}} cores</span>
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Guaranteed RAM
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.Gram}}</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Inodes
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.inodes}}</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Disk I/O
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.diskIO}} MB/sec</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Entry Processes
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.entryPro}}</span>
+						
+					
+					</div>
+				
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					<div id=''class='col-md-2'style='height:100%;padding:1%'>
+					Processes
+					
+					</div>
+					<div ng-class='{tableEven: $index %2==0}' ng-repeat='deal in deals track by $index'id=''class='col-md-2'style='text-align:center;padding:1%'>
+						<span class='col-md-12'>{{deal.process}}</span>
+						
+					
+					</div>
+				</div>
+				<div id=''class='col-md-12'style='height:5.5%;'>
+					
+				
+				</div>
+				
+
+			
+			</div>
+
+
+
+		
+	</div>
+
+	<!-- MOBILE -->
+	<div id=''class='hidden-md hidden-lg'style=''>
+	
+	
+	</div>
+
+
+</div>
