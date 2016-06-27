@@ -139,3 +139,24 @@ text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 
   border-color:#1F297F;
 
 }
+
+.tableEven { 
+
+  background:rgba(46,62,178,0.5);
+  color:white;
+}
+.detailSelect {
+  background:rgba(46,62,178,0.7);
+  color:white;
+  border:1px solid white;
+}
+
+.touchable {
+  cursor:pointer;
+
+}
+.touchable:hover{
+  background:rgba(46,62,178,0.7);
+  color:white;
+  border:1px solid white;
+}
