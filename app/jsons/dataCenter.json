@@ -1,8 +1,32 @@
 [
 
-{"name":"",
+{"name":"725 S. Wells, Chicago",
  "specs":[
- 		{
- 		] }
- 		}
+   {"space":"6000"},
+   {"Floor Load":"250"},
+   {"Security":"Proximity card"},
+   {"staff":""},
+   {"powerDen":""} 		
+ 		],
+ 	"infrastructure":[
+ 		{"feature":""},
+
+ 	],
+ 	"network":""
+ 		 },
+
+ {"name":"",
+ "specs":[
+   {"space":""},
+   {"Floor Load":""},
+   {"Security":""},
+   {"staff":""},
+   {"powerDen":""} 		
+ 		],
+ 	"infrastructure":[
+ 		{"feature":""},
+
+ 	],
+ 	"network":""
+ 		 }
 ]
